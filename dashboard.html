@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Website Identitas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="dashboard">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <h2>MENU</h2>
+      <ul class="menu">
+        <li><a href="dashboard.html" class="active">Dashboard</a></li>
+      </ul>
+      
+      <div class="user-profile">
+        <p><strong>User:</strong> Lailil Miftachul Sekar</p>
+        <p><strong>Level:</strong> Administrator</p>
+        <a href="index.html"><button class="btn-logout">LOGOUT</button></a>
+      </div>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="header">
+        <h1>PROFIL IDENTITAS</h1>
+        <p>Data Pribadi dan Informasi Lengkap</p>
+      </div>
+      
+      <!-- Kartu Identitas dengan Foto -->
+      <div class="identity-container">
+        <div class="identity-card">
+          <div class="card-header">
+            <div class="profile-photo-container">
+              <img src="bernad.jpg" alt="Foto Profil" class="profile-photo">
+              <p class="photo-label">Foto Profil</p>
+            </div>
+          </div>
+          <div class="card-body">
+            <h2>Lailil Miftachul Sekar</h2>
+            <p class="job-title">Pelajar</p>
+            
+            <div class="info-section">
+              <h3>Data Pribadi</h3>
+              <div class="info-row">
+                <div class="info-label">Telepon:</div>
+                <div class="info-value">+62 812-1647-7005</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">Alamat:</div>
+                <div class="info-value">Bareng, Jombang</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">Sekolah:</div>
+                <div class="info-value">SMK MAARIF NGORO</div>
+              </div>
+              <div class="info-row">
+                <div class="info-label">Umur:</div>
+                <div class="info-value">17 Tahun</div>
+              </div>
+              <span class="status-badge status-aktif">AKTIF</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Foto Hobi -->
+        <div class="hobby-section">
+          <h3>Hobi Saya</h3>
+          <div class="hobby-photos">
+            <div class="hobby-item">
+              <img src="pramuka.jpg" alt="Hobi 1">
+              <p>Pramuka</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
